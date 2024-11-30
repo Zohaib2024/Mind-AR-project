@@ -1,0 +1,216 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.4.0)"
+    },
+    "extensionsUsed": [
+        "KHR_materials_volume",
+        "FB_ngon_encoding"
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 2581,
+            "type": "VEC3",
+            "max": [
+                4.017475128173828,
+                0.8584307432174683,
+                2.783726215362549
+            ],
+            "min": [
+                -4.017475128173828,
+                0.0,
+                -2.783726215362549
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 2581,
+            "type": "VEC3",
+            "max": [
+                0.9999998211860657,
+                1.0,
+                0.999993085861206
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -0.9999800324440002
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 2581,
+            "type": "VEC2",
+            "max": [
+                0.9912879467010498,
+                0.9974886178970337
+            ],
+            "min": [
+                0.001680069137364626,
+                0.0037872791290283203
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 10287,
+            "type": "SCALAR",
+            "max": [
+                2580
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 123740,
+            "uri": "Pizza Slice_0.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 30972,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 30972,
+            "byteLength": 30972,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 61944,
+            "byteLength": 20648,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 82592,
+            "byteLength": 41148,
+            "target": 34963
+        }
+    ],
+    "images": [
+        {
+            "uri": "textures/image_0.png"
+        },
+        {
+            "uri": "textures/image_1.png"
+        }
+    ],
+    "materials": [
+        {
+            "name": "Mat_1",
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0.0
+            },
+            "normalTexture": {
+                "index": 1
+            },
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "meshes[0]",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 3,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "Pizza Slice",
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "RootNode0",
+            "matrix": [
+                0.009999999776482582,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.009999999776482582,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.009999999776482582,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "children": [
+                2
+            ],
+            "extras": {
+                "name": "RootNode.0"
+            }
+        },
+        {
+            "name": "Pizza_Slice1",
+            "mesh": 0,
+            "extras": {
+                "name": "Pizza_Slice.1"
+            }
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9985
+        },
+        {
+            "magFilter": 9729,
+            "minFilter": 9985
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "textures": [
+        {
+            "source": 0,
+            "sampler": 0
+        },
+        {
+            "source": 1,
+            "sampler": 1
+        }
+    ],
+    "scene": 0
+}
